@@ -1,24 +1,24 @@
 //add .value behind the collected html elements
 
-const newUser = document.getElementById("#textUsername").value;
-const newPass = document.getElementById("#textPassword");
-const inputForm = document.getElementById("#inputForm");
-const outputP = document.getElementById("#p");
-const button = document.querySelector(".submitButton");
+// const newUser = document.getElementById("#textUsername").value;
+// const newPass = document.getElementById("#textPassword");
+// const inputForm = document.getElementById("#inputForm");
+// const outputP = document.getElementById("#p");
+// const button = document.querySelector(".submitButton");
 
-let username =  [];
-let password = [];
+// let username =  [];
+// let password = [];
 
 //function to collect the info and post it one the web page
-function submit() {
-    let newUser = document.querySelector("#textUsername").value;
-    let newPass = document.querySelector("#textPassword").value;
+// function submit() {
+//     let newUser = document.querySelector("#textUsername").value;
+//     let newPass = document.querySelector("#textPassword").value;
 
-        username = inputUsername.concat("#textUsername");
-        password = inputPassword.concat("#textPassword");
+//         username = inputUsername.concat("#textUsername");
+//         password = inputPassword.concat("#textPassword");
 
-        outputP = outputP.createElement("#p");
-        outputP.appendChild(submit);
+//         outputP = outputP.createElement("#p");
+//         outputP.appendChild(submit);
 
     // if (inputUsername) {
     //     const outputP = document.createElement("p");
@@ -34,4 +34,4 @@ function submit() {
     // inputForm.addEventListener("click");
 }
 
-button.addEventListener("click", submit);
+// button.addEventListener("click", submit);
