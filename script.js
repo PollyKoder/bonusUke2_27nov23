@@ -1,5 +1,11 @@
 //add .value behind the collected html elements
 
+function submit() {
+    let newUser = document.querySelector("#textUsername").value;
+    let newEmail = document.querySelector("#textEmail").value;
+    let newPass = document.querySelector("#textPassword").value;
+}
+
 // const newUser = document.getElementById("#textUsername").value;
 // const newPass = document.getElementById("#textPassword");
 // const inputForm = document.getElementById("#inputForm");
