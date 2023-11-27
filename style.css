@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    background: rgb(217, 255, 47);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.position {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+    gap:2em;
+}
+
+.card {
+    border: 2px solid rgb(0, 61, 0);
+    border-radius: 10px;
+    background: rgb(116, 255, 47);
+    color: #222222;
+    padding:30px;
+}
+
+.input {
+    padding:5px;
+    border-radius: 5px;
+}
+
